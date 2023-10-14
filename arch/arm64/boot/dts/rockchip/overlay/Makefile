@@ -132,7 +132,26 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3588-uart8-m0-full.dtbo \
 	rk3588-uart8-m1.dtbo \
 	rk3588-w1-gpio3-b3.dtbo \
-	rk3588-w1-gpio4-b1.dtbo
+	rk3588-w1-gpio4-b1.dtbo \
+	rk3399-nanopi4-rev00.dtbo \
+	rk3399-nanopi4-rev01.dtbo \
+	rk3399-nanopi4-rev04.dtbo \
+	rk3399-nanopi4-rev06.dtbo \
+	rk3399-nanopi4-rev07.dtbo \
+	rk3399-nanopi4-rev09.dtbo \
+	rk3399-nanopi4-rev0a.dtbo \
+	rk3399-nanopi4-rev0b.dtbo \
+	rk3399-nanopi4-rev21.dtbo \
+	rk3399-nanopi4-rev22.dtbo \
+	rk3568-nanopi5-rev01.dtbo \
+	rk3568-nanopi5-rev02.dtbo \
+	rk3568-nanopi5-rev03.dtbo \
+	rk3568-nanopi5-rev04.dtbo \
+	rk3588-nanopi6-rev01.dtbo \
+	rk3588-nanopi6-rev02.dtbo \
+	rk3588-nanopi6-rev03.dtbo \
+	rk3588-nanopi6-rev04.dtbo \
+	rk3588-nanopi6-rev05.dtbo
 
 
 dtbotxt-$(CONFIG_ARCH_ROCKCHIP) += \
