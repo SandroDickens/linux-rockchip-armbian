@@ -14,9 +14,9 @@
 #include <dt-bindings/display/rockchip_vop.h>
 #include <dt-bindings/sensor-dev.h>
 #include <dt-bindings/usb/pd.h>
-#include "rk3588s.dtsi"
-#include "rk3588-android.dtsi"
-#include "rk3588-rk806-single.dtsi"
+#include "../rk3588s.dtsi"
+#include "../rk3588-android.dtsi"
+#include "../rk3588-rk806-single.dtsi"
 
 / {
 	model = "FriendlyElec boards based on Rockchip RK3588";

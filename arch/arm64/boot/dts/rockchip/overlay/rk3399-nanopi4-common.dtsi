@@ -8,10 +8,10 @@
 
 #include "dt-bindings/pwm/pwm.h"
 #include <dt-bindings/usb/pd.h>
-#include "rk3399.dtsi"
-#include "rk3399-opp.dtsi"
-#include "rk3399-vop-clk-set.dtsi"
-#include "rk3399-android.dtsi"
+#include "../rk3399.dtsi"
+#include "../rk3399-opp.dtsi"
+#include "../rk3399-vop-clk-set.dtsi"
+#include "../rk3399-android.dtsi"
 #include "rk3399-nanopi4-rkisp1.dtsi"
 
 / {

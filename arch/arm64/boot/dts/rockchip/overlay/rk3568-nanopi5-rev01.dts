@@ -8,7 +8,7 @@
 
 /dts-v1/;
 
-#include "rk3568.dtsi"
+#include "../rk3568.dtsi"
 #include "rk3568-nanopi5-common.dtsi"
 
 / {

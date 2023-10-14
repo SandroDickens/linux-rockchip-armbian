@@ -6,7 +6,7 @@
 
 /dts-v1/;
 
-#include "rk3588.dtsi"
+#include "../rk3588.dtsi"
 #include "rk3588-nanopi6-common.dtsi"
 
 / {
