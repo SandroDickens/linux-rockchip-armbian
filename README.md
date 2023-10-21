@@ -1,3 +1,28 @@
+# How to build kernel
+
+## 1. config
+
+cross:
+```shell
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- nanopi6_linux_defconfig
+```
+host:
+```shell
+make nanopi6_linux_defconfig
+```
+
+## 2. build
+
+cross:
+```shell
+make KBUILD_IMAGE="arch/arm64/boot/Image" CROSS_COMPILE=aarch64-linux-gnu- ARCH=arm64 -j$(nproc) bindeb-pkg
+```
+
+host:
+```shell
+make KBUILD_IMAGE="arch/arm64/boot/Image" -j$(nproc) bindeb-pkg
+```
+
 # How do I submit patches to Android Common Kernels
 
 1. BEST: Make all of your changes to upstream Linux. If appropriate, backport to the stable releases.
