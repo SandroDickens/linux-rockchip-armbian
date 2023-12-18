@@ -30,12 +30,19 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	rock-5b-rpi-camera-v2.dtbo \
 	rock-5b-radxa-camera-4k.dtbo \
 	rock-5b-sata.dtbo \
+	rock-5-itx-radxa-camera-4k-on-cam0.dtbo \
+	rock-5-itx-radxa-camera-4k-on-cam1.dtbo \
+	rock-5-itx-radxa-display-8hd-on-lcd0.dtbo \
+	rock-5-itx-radxa-display-8hd-on-lcd1.dtbo \
+	rock-5-itx-enable-sharp-lq133t1jw01-edp-lcd-disable-dp1.dtbo \
 	radxa-cm5-io-radxa-camera-4k.dtbo \
 	radxa-cm5-io-raspi-7inch-touchscreen.dtbo \
 	radxa-cm5-io-radxa-display-10hd.dtbo \
 	radxa-cm5-io-radxa-display-8hd.dtbo \
 	radxa-cm5-io-rpi-camera-v2.dtbo \
 	radxa-cm5-io-sata.dtbo \
+	radxa-nx5-io-rpi-camera-v2-cam0.dtbo \
+	radxa-nx5-io-rpi-camera-v2-cam1.dtbo \
 	turing-rk1-sata2.dtbo \
 	mixtile-blade3-sata2.dtbo \
 	yy3568-camera.dtbo \
