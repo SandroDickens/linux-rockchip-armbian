@@ -3,10 +3,16 @@
 ## 1. config
 
 cross:
+
 ```shell
+# nanopc t6
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- nanopi6_linux_defconfig
+# radxa zero3
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- radxa_zero3_defconfig
 ```
+
 host:
+
 ```shell
 make nanopi6_linux_defconfig
 ```
@@ -14,11 +20,13 @@ make nanopi6_linux_defconfig
 ## 2. build
 
 cross:
+
 ```shell
 make KBUILD_IMAGE="arch/arm64/boot/Image" CROSS_COMPILE=aarch64-linux-gnu- ARCH=arm64 -j$(nproc) bindeb-pkg
 ```
 
 host:
+
 ```shell
 make KBUILD_IMAGE="arch/arm64/boot/Image" -j$(nproc) bindeb-pkg
 ```
